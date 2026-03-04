@@ -3,10 +3,7 @@ You will need two classes or factories:
 
 Build the following functions in your linked list class / factory:
 
-append(value) adds a new node containing value to the end of the list.
-prepend(value) adds a new node containing value to the start of the list.
-size() returns the total number of nodes in the list.
-head() should return the value of the first node in the list. If the list is empty, it should return undefined.
+ 
 tail() should return the value of the final node in the list. If the list is empty, it should return undefined.
 at(index) should return the value of the node at the given index. If there’s no node at the given index, it should return undefined.
 pop() should remove the head node from the list and return its value. If it’s used on an empty list, it should just return undefined.
